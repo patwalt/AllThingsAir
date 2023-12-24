@@ -1,8 +1,8 @@
-USE [Learning1]
+USE [AllThingsAir]
 GO
 
 CREATE TABLE [dbo].[Powerplant](
-	[ID] [int] IDENTITY(1,101) NOT NULL,
+	[ID] [int] IDENTITY(101,1) NOT NULL,
 	[ID2] [int] NOT NULL,
 	[Type] [varchar](30) NOT NULL,
 	[SubType] [varchar](50) NULL,
